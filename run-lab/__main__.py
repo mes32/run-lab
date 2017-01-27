@@ -1,3 +1,6 @@
 #!/bin/usr/python
 
-print("Hello")
+from gui import GUI
+
+gui = GUI()
+gui.display()
